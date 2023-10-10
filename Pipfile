@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+beautifulsoup4 = "*"
+selenium = "*"
+
+[dev-packages]
+flake8 = "*"
+flake8-builtins = "*"
+flake8-docstrings = "*"
+flake8-import-order = "*"
+flake8-variables-names = "*"
+flake8-quotes = "*"
+pre-commit = "*"
+webdriver-manager = "*"
+black = "*"
+isort = "*"
+
+[requires]
+python_version = "3.10"
